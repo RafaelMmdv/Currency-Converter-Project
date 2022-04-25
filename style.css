@@ -244,12 +244,27 @@ h1{
     color: #000000;
 
 }
-.block2{
+.left-block2{
     position: absolute;
     width: 119px;
     height: 28px;
-    margin-left: 16px;
-    margin-top: 69px;
+    margin-left: 469px;
+    margin-top: 319px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+}
+.right-block2{
+    position: absolute;
+    width: 119px;
+    height: 28px;
+    margin-left: 852px;
+    margin-top: 319px;  
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
