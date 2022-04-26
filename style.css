@@ -156,12 +156,27 @@ h1{
     display: flex;
     align-items: center;
     text-align: center;
+    font-family: "Roboto";
 }
 .currencies{
     display: block;
     
 }
-.c1{
+.nav-right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.nav-left{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/* .c1{
     position: absolute;
     width: 63.81px;
     height: 28px;
@@ -192,12 +207,18 @@ h1{
     margin-left: 195.19px;
     display: block;
     padding-top: 5px;
-}
-.list2 :hover{
-    background-color: #833AE0;
+} */
+/* .nav-right :hover{
+    background: #000000;
     color: white;
     cursor: pointer;
 }
+.nav-left :hover{
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+
+} */
 .currencies2{
     display: block;
 }
@@ -214,13 +235,19 @@ h1{
     display: flex;
     align-items: center;
     text-align: center;
+    font-family: "Roboto";
 }
-.list3 :hover{
+ .list2 :hover{
     background-color: #833AE0;
     color: white;
     cursor: pointer;
 }
-.side{
+.list3 :hover{
+    background-color: #833AE0;
+    color: white;
+    cursor: pointer; 
+}
+.side1{
     position: absolute;
     width: 259px;
     height: 102px;
@@ -232,7 +259,7 @@ h1{
 }
 .block1{
     position: absolute;
-    width: 124px;
+    width: 175px;
     height: 38px;
     margin-left: 14px;
     margin-top: 11px;
@@ -242,14 +269,15 @@ h1{
     font-size: 36px;
     line-height: 42px;
     color: #000000;
+    border: none;
 
 }
 .left-block2{
     position: absolute;
     width: 119px;
     height: 28px;
-    margin-left: 469px;
-    margin-top: 319px;
+    margin-left: 16px;
+    margin-top: 69px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -263,8 +291,8 @@ h1{
     position: absolute;
     width: 119px;
     height: 28px;
-    margin-left: 852px;
-    margin-top: 319px;  
+    margin-left: 16px;
+    margin-top: 69px;  
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -283,4 +311,12 @@ h1{
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 3px;
+}
+
+/* .active, .list2 :hover{
+    background-color: purple;
+} */
+.nav-left-btn-active, .nav-right-btn-active{
+    background-color: #833AE0;
+    color: #FFFFFF;
 }
