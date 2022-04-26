@@ -2,12 +2,13 @@ const inptCont = document.querySelectorAll(".input-cont");
 const inptLeft = document.querySelector(".inpt-left");
 const inptRight = document.querySelector(".inpt-right");
 const inpt = document.querySelectorAll(".inpt");
+const leftSlctList = document.querySelector(".list2")
+const rightSlctList = document.querySelector(".list3")
 const leftList = document.querySelectorAll(".nav-left");
 const rightList = document.querySelectorAll(".nav-right");
 const bttmValueLeft = document.querySelector(".inpt-left-bttm");
 const bttmValueRight = document.querySelector(".inpt-right-bttm");
-const leftSlctList = document.querySelector(".list2")
-const rightSlctList = document.querySelector(".list3")
+
 
 
 function getLeftData(from, to, inpt1, inpt2){

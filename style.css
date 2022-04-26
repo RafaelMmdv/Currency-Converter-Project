@@ -176,49 +176,7 @@ h1{
     width: 100%;
     height: 100%;
 }
-/* .c1{
-    position: absolute;
-    width: 63.81px;
-    height: 28px;
-    margin-left: 0px;
-    display: block;
-    padding-top: 5px;
-}
-.c2{
-    position: absolute;
-    width: 62.56px;
-    height: 28px;
-    margin-left: 66.31px;
-    display: block;
-    padding-top: 5px;
-}
-.c3{
-    position: absolute;
-    width: 62.56px;
-    height: 28px;
-    margin-left: 130.13px;
-    display: block;
-    padding-top: 5px;
-}
-.c4{
-    position: absolute;
-    width: 62.56px;
-    height: 28px;
-    margin-left: 195.19px;
-    display: block;
-    padding-top: 5px;
-} */
-/* .nav-right :hover{
-    background: #000000;
-    color: white;
-    cursor: pointer;
-}
-.nav-left :hover{
-    background: #000000;
-    color: #FFFFFF;
-    cursor: pointer;
 
-} */
 .currencies2{
     display: block;
 }
@@ -246,6 +204,10 @@ h1{
     background-color: #833AE0;
     color: white;
     cursor: pointer; 
+}
+.nav-left-btn-active, .nav-right-btn-active{
+    background-color: #833AE0;
+    color: #FFFFFF;
 }
 .side1{
     position: absolute;
@@ -313,10 +275,3 @@ h1{
     border-radius: 3px;
 }
 
-/* .active, .list2 :hover{
-    background-color: purple;
-} */
-.nav-left-btn-active, .nav-right-btn-active{
-    background-color: #833AE0;
-    color: #FFFFFF;
-}
